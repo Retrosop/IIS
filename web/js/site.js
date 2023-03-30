@@ -17,31 +17,36 @@ function messageWrite2() {
     document.write('</tr>');   
    }
    
-   /*
-    document.write('<tr>');
-     document.write('<td>');
-	   document.write('Column 1');
-     document.write('</td>');
-	   document.write('<td>');
-	    document.write('Column 2');
-       document.write('</td>');
-	document.write('</tr>');   
-	document.write('<tr>');   
-	   document.write('<td>');
-	   document.write('Content 11');
-     document.write('</td>');
-	   document.write('<td>');
-	    document.write('Content 21');
-       document.write('</td>');
-	 document.write('<tr>');
-	 document.write('</tr>');
-	    document.write('<td>');
-	   document.write('Content 12');
-     document.write('</td>');
-	   document.write('<td>');
-	    document.write('Content 22');
-       document.write('</td>');
-    document.write('</tr>');
-	*/
    document.write('</table>');
 }
+
+
+$(document).ready(function() { 
+	$( "#replaceoradd" ).click(function() {
+	   //alert("asdsads");
+	   
+	 a= +prompt('Введите число a');
+     b= +prompt('Введите число b');
+	 s='';
+     s+='<table border=1>'; 
+     for(i=1;i<=a;i+=1){
+       s+='<tr>';
+       for(j=1;j<=b;j+=1){
+	 
+       s+='<td>';
+	    s+=(i*j);
+        s+='</td>';
+	   
+	
+	  }
+      s+='</tr>';   
+     }
+   
+      s+='</table>';
+	  
+	  // var html = ' ';
+	   $("#rezultat").append(s);
+		
+	});
+ 
+});

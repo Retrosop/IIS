@@ -11,7 +11,12 @@ $this->params['breadcrumbs'][] = $this->title;
    
    
   
-   <input type='button' value='Задание 2' onclick='messageWrite2()' />
-  
+   <input type='button' value='Задание 2' onclick='messageWrite2()' /> <br>
+   
+   <button id=replaceoradd>Мой первый jquery</button>
+   
+   <div id=rezultat>
+   
+   </div>
   
 </div>
