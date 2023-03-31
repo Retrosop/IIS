@@ -130,6 +130,15 @@ class SiteController extends Controller
      *
      * @return string
      */
+	 public function actionMyjscss()
+    {
+        return $this->render('myjscss');
+    }
+	 /**
+     * Displays about page.
+     *
+     * @return string
+     */
     public function actionFirstpage($a=5)
     {
         return $this->render('page1',['par_a'=>$a]);
