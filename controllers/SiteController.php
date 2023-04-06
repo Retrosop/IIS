@@ -141,6 +141,6 @@ class SiteController extends Controller
      */
     public function actionFirstpage($a=5)
     {
-        return $this->render('page1',['par_a'=>$a]);
+        return $this->render('mypostget',['par_a'=>$a]);
     }
 }
