@@ -17,6 +17,13 @@ $this->params['breadcrumbs'][] = $this->title;
 		<?=Html::textInput('b','23')?><br>
 		<?=Html::submitButton('Send', ['class' => 'btn btn-success']) ?>
    <?php ActiveForm::end() ?>
+   
+   <div class="realcomment-index">
+    <h1><?= Html::encode($this->title) ?></h1>
+    <div id="realcomment-container" class="col-md-8 col-md-offset-2">
+        <?= $this->render('myajaxrezultpage') ?>
+    </div>
+   </div>
 
    <?php
 		$js = <<<JS
@@ -27,7 +34,9 @@ $this->params['breadcrumbs'][] = $this->title;
 				type: 'POST',
 				data: data,
 				success: function(res){
+					console.log(res);
 					document.write(res);
+					 $('#realcomment-container').html(response);
 			   },
 			   error: function(){
 					alert('Error!');

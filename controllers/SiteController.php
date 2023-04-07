@@ -156,7 +156,7 @@ class SiteController extends Controller
       // if($form_model->load(\Yii::$app->request->post())){
       //    var_dump($form_model);
      //  }
-       return $this->render('myajaxrezultpage');
+       return $this->render('myajaxrezultpage',['rez'=>'123']);
     }
 	
 }
