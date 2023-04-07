@@ -147,16 +147,23 @@ class SiteController extends Controller
     {
         return $this->render('myajaxpage');
     }
-	public function actionMyajaxrezult()
-    {
-		//$form_model = new TestForm();
-        if(\Yii::$app->request->isAjax){
-          return 'Запрос принят!';
-       }
-      // if($form_model->load(\Yii::$app->request->post())){
-      //    var_dump($form_model);
-     //  }
-       return $this->render('myajaxrezultpage',['rez'=>'123']);
-    }
 	
+		public function actionMyajaxrezult($a=0,$b=0)
+    {
+	   
+        if(\Yii::$app->request->isAjax){
+		
+			 
+			\Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
+                $data = Yii::$app->request->post();
+                return $this->renderAjax('_myajaxrezultpage', [
+                    'rez' => json_encode(\Yii::$app->request->getRawBody()) ,
+					'rezsumma'=>$data['a']+$data['b']]
+                );
+				
+       
+       }
+
+	   
+	}
 }
