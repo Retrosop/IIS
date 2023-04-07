@@ -19,34 +19,32 @@ $this->params['breadcrumbs'][] = $this->title;
    <?php ActiveForm::end() ?>
 
    <?php
-	//	$js = <<<JS
-	//	$('form').on('beforeSubmit', function(){
-	//	  alert('Работает!');
-	//	  return false;
-	//	});
-	//	JS;
-	//	  $this->registerJs($js);
+		$js = <<<JS
+		$('form').on('beforeSubmit', function(){
+			  var data = $(this).serialize();
+			$.ajax({
+				url: '/site/myajaxrezult',
+				type: 'POST',
+				data: data,
+				success: function(res){
+					console.log(res);
+			   },
+			   error: function(){
+					alert('Error!');
+				}
+			});
+			
+		  alert('Работает!');
+		//  return false;
+		  
+		  
+		  
+		});
+		JS;
+		  $this->registerJs($js);
 	?>
-	<?php
-	$js = <<<JS
-    $('form').on('beforeSubmit', function(){
-       var data = $(this).serialize();
-        $.ajax({
-            url: '/site/myajaxrezult',
-            type: 'POST',
-            data: data,
-            success: function(res){
-                console.log(res);
-            },
-            error: function(){
-                alert('Error!');
-            }
-        });
-        return false;
-    });
-	?>
-JS;
-  ?>
+
+
  
   
 </div>
