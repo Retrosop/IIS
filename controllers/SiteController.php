@@ -143,4 +143,13 @@ class SiteController extends Controller
     {
         return $this->render('mypostget',['par_a'=>$a]);
     }
+	public function actionMyajax()
+    {
+        return $this->render('myajaxpage');
+    }
+	public function actionMyajaxrezult()
+    {
+        return $this->render('myajaxrezultpage');
+    }
+	
 }

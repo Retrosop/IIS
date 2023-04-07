@@ -44,6 +44,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                             'items' => [
                                	['label' => 'Lab2', 'url' => ['/site/firstpage']],
 	                        	['label' => 'Lab3', 'url' => ['/site/myjscss']],
+								['label' => 'Lab4', 'url' => ['/site/myajax']],
 								
                             ],
              ],
