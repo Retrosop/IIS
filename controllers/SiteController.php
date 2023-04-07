@@ -149,7 +149,14 @@ class SiteController extends Controller
     }
 	public function actionMyajaxrezult()
     {
-        return $this->render('myajaxrezultpage');
+		//$form_model = new TestForm();
+        if(\Yii::$app->request->isAjax){
+          return 'Запрос принят!';
+       }
+      // if($form_model->load(\Yii::$app->request->post())){
+      //    var_dump($form_model);
+     //  }
+       return $this->render('myajaxrezultpage');
     }
 	
 }

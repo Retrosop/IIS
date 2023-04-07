@@ -23,11 +23,11 @@ $this->params['breadcrumbs'][] = $this->title;
 		$('form').on('beforeSubmit', function(){
 			  var data = $(this).serialize();
 			$.ajax({
-				url: '/site/myajaxrezult',
+				url: 'index.php?r=site/myajaxrezult',
 				type: 'POST',
 				data: data,
 				success: function(res){
-					console.log(res);
+					document.write(res);
 			   },
 			   error: function(){
 					alert('Error!');
