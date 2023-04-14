@@ -9,6 +9,7 @@ use yii\web\Response;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
+use app\models\Deletediplom;
 
 class SiteController extends Controller
 {
@@ -160,6 +161,20 @@ class SiteController extends Controller
 
 		
         return $this->render('mymeta');
+    }
+	
+	public function actionMyactive($namediplom='')
+    {
+		$data = Yii::$app->request->post();
+		$diplom = Deletediplom::find()
+        //->where(['name' => $data['namediplom']])->all();
+		->andWhere(['LIKE' ,'name',$data['namediplom']])->all();
+
+ 
+		
+		//print_r($diplom);
+		
+        return $this->render('myactive',['p1'=>'123','p2'=>9,'p3'=>$diplom]);
     }
 	
 		public function actionMyajaxrezult($a=0,$b=0)

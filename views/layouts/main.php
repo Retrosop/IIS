@@ -46,6 +46,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 	                        	['label' => 'Lab3', 'url' => ['/site/myjscss']],
 								['label' => 'Lab4', 'url' => ['/site/myajax']],
 								['label' => 'Lab5', 'url' => ['/site/mymeta']],
+								['label' => 'LabActiveRecord', 'url' => ['/site/myactive']],
 								
                             ],
              ],
