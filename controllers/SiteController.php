@@ -148,6 +148,20 @@ class SiteController extends Controller
         return $this->render('myajaxpage');
     }
 	
+	public function actionMymeta()
+    {
+		$this->view->title = 'Мета вселенная';
+        $this->view->registerMetaTag(
+            ['name' => 'keywords', 'content' => 'теги, слова, объекты']
+        );
+        $this->view->registerMetaTag(
+            ['name' => 'description', 'content' => 'Изучаем основные данные веб-страницы']
+        );
+
+		
+        return $this->render('mymeta');
+    }
+	
 		public function actionMyajaxrezult($a=0,$b=0)
     {
 	   
