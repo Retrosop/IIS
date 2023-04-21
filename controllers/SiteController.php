@@ -10,6 +10,7 @@ use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
 use app\models\Deletediplom;
+use app\models\FeedbackForm;
 
 class SiteController extends Controller
 {
@@ -147,6 +148,32 @@ class SiteController extends Controller
 	public function actionMyajax()
     {
         return $this->render('myajaxpage');
+    }
+	
+	public function actionMyform()
+    {
+		$model = new FeedbackForm();
+		
+		if ($model->load(Yii::$app->request->post())) {
+			//print_r(Yii::$app->request->post());
+			
+			$data=Yii::$app->request->post();
+			$name = $data['FeedbackForm']['name'];
+			$email = $data['FeedbackForm']['email'];
+			$body = $data['FeedbackForm']['body'];
+			
+			//print_r($body);
+			return $this->render('myformview', ['model' => $model,'name1'=>$name,'email1'=>$email,'body1'=>$body]);
+		}
+		else {
+			return $this->render('myform', ['model' => $model]);
+		}
+		
+		
+        
+		
+
+       
     }
 	
 	public function actionMymeta()
