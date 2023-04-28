@@ -128,7 +128,7 @@ class SiteController extends Controller
         return $this->render('about');
     }
 	 /**
-     * Displays about page.
+     * Displays myjscss page.
      *
      * @return string
      */
@@ -137,7 +137,7 @@ class SiteController extends Controller
         return $this->render('myjscss');
     }
 	 /**
-     * Displays about page.
+     * Displays first page.
      *
      * @return string
      */
@@ -149,7 +149,6 @@ class SiteController extends Controller
     {
         return $this->render('myajaxpage');
     }
-	
 	public function actionMyform()
     {
 		$model = new FeedbackForm();
@@ -175,7 +174,6 @@ class SiteController extends Controller
 
        
     }
-	
 	public function actionMymeta()
     {
 		$this->view->title = 'Мета вселенная';
@@ -189,7 +187,6 @@ class SiteController extends Controller
 		
         return $this->render('mymeta');
     }
-	
 	public function actionMyactive($namediplom='')
     {
 		$data = Yii::$app->request->post();
@@ -203,8 +200,7 @@ class SiteController extends Controller
 		
         return $this->render('myactive',['p1'=>'123','p2'=>9,'p3'=>$diplom]);
     }
-	
-		public function actionMyajaxrezult($a=0,$b=0)
+	public function actionMyajaxrezult($a=0,$b=0)
     {
 	   
         if(\Yii::$app->request->isAjax){
@@ -222,4 +218,9 @@ class SiteController extends Controller
 
 	   
 	}
+	 public function actionMywidget()
+    {
+        return $this->render('mywidget');
+    }
+	
 }
