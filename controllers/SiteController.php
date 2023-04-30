@@ -218,9 +218,14 @@ class SiteController extends Controller
 
 	   
 	}
-	 public function actionMywidget()
+	public function actionMywidget()
     {
         return $this->render('mywidget');
+    }
+	
+	public function actionMyi18n()
+    {
+        return $this->render('myi18n');
     }
 	
 }

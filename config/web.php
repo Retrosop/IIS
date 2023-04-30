@@ -7,6 +7,8 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+	'language'=>'ru',
+	'sourceLanguage' => 'ru',
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
@@ -41,15 +43,34 @@ $config = [
                 ],
             ],
         ],
+		'i18n' => [
+            'translations' => [
+                'app*' => [
+                    'class' => 'yii\i18n\PhpMessageSource',
+					'basePath' => '@app/messages',
+                    //'sourceLanguage' => 'en-US',
+                    // все переводы будут в файле messages/ru_RU/app.php
+                   // 'fileMap' => [
+                  //      'app' => 'app.php',
+                  //  ],
+                ],
+            ],
+        ],
         'db' => $db,
-        /*
+		//Recomment with lab work № 8
+        /* 
         'urlManager' => [
+		    'class' => 'codemix\localeurls\UrlManager',
+			'languages'=>['ru','en'],
+			//'enableDefaultLanguageUrlCode' => true,
+			//'enableLanguageDetection' => false,
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
             ],
         ],
-        */
+		*/
+        
     ],
     'params' => $params,
 ];

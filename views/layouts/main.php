@@ -48,6 +48,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 								['label' => 'Lab5', 'url' => ['/site/mymeta']],
 								['label' => 'Lab6', 'url' => ['/site/myform']],
 								['label' => 'Lab7', 'url' => ['/site/mywidget']],
+								['label' => 'Lab8', 'url' => ['/site/myi18n']],
 								['label' => 'LabActiveRecord', 'url' => ['/site/myactive']],
 								
                             ],
@@ -84,7 +85,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 <footer id="footer" class="mt-auto py-3 bg-light">
     <div class="container">
         <div class="row text-muted">
-            <div class="col-md-6 text-center text-md-start">&copy; My Company <?= date('Y') ?></div>
+            <div class="col-md-6 text-center text-md-start">&copy; My Company <?= date('Y') ?><?=$this->render('language') ?></div>
             <div class="col-md-6 text-center text-md-end"><?= Yii::powered() ?></div>
         </div>
     </div>
