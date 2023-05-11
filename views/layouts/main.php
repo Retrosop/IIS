@@ -32,14 +32,54 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 <header id="header">
     <?php
     NavBar::begin([
-        'brandLabel' => Yii::$app->name,
+        'brandLabel' => 'СувенирМастер',//Yii::$app->name,
         'brandUrl' => Yii::$app->homeUrl,
         'options' => ['class' => 'navbar-expand-md navbar-dark bg-dark fixed-top']
     ]);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav'],
         'items' => [
-            ['label' => 'Home', 'url' => ['/site/index']],
+           // ['label' => 'Home', 'url' => ['/site/index']],
+			['label' => 'О компании',
+                            'items' => [
+                               	['label' => 'Учредители', 'url' => ['/site/uchredit']],
+	                        	['label' => 'Где находимся', 'url' => ['/site/myjscss']],
+								['label' => 'Контакты', 'url' => ['/site/myajax']],
+							//	['label' => 'Lab5', 'url' => ['/site/mymeta']],
+							//	['label' => 'Lab6', 'url' => ['/site/myform']],
+							//	['label' => 'Lab7', 'url' => ['/site/mywidget']],
+							//	['label' => 'Lab8', 'url' => ['/site/myi18n']],
+							//	['label' => 'LabActiveRecord', 'url' => ['/site/myactive']],
+								
+                            ],
+             ],
+			['label' => 'Продукция',
+                            'items' => [
+                               	['label' => 'Футболки', 'url' => ['/site/firstpage']],
+	                        	['label' => 'Картины', 'url' => ['/site/myjscss']],
+								['label' => 'Брелки', 'url' => ['/site/myajax']],
+								['label' => 'Магниты', 'url' => ['/site/mymeta']],
+							//	['label' => 'Lab6', 'url' => ['/site/myform']],
+							//	['label' => 'Lab7', 'url' => ['/site/mywidget']],
+							//	['label' => 'Lab8', 'url' => ['/site/myi18n']],
+							//	['label' => 'LabActiveRecord', 'url' => ['/site/myactive']],
+								
+                            ],
+             ],
+			 ['label' => 'Заказ',
+                            'items' => [
+                               	['label' => 'Как оформить', 'url' => ['/site/firstpage']],
+	                        	['label' => 'Где забрать', 'url' => ['/site/myjscss']],
+								['label' => 'Возврат товара', 'url' => ['/site/myajax']],
+								['label' => 'Оставить отзыв', 'url' => ['/site/mymeta']],
+							//	['label' => 'Lab6', 'url' => ['/site/myform']],
+							//	['label' => 'Lab7', 'url' => ['/site/mywidget']],
+							//	['label' => 'Lab8', 'url' => ['/site/myi18n']],
+							//	['label' => 'LabActiveRecord', 'url' => ['/site/myactive']],
+								
+                            ],
+             ],
+			/* 
 			['label' => 'Labs',
                             'items' => [
                                	['label' => 'Lab2', 'url' => ['/site/firstpage']],
@@ -56,6 +96,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 		
             ['label' => 'About', 'url' => ['/site/about']],
             ['label' => 'Contact', 'url' => ['/site/contact']],
+			
             Yii::$app->user->isGuest
                 ? ['label' => 'Login', 'url' => ['/site/login']]
                 : '<li class="nav-item">'
@@ -66,6 +107,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                     )
                     . Html::endForm()
                     . '</li>'
+					*/
         ]
     ]);
     NavBar::end();

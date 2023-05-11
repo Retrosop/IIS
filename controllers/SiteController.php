@@ -228,4 +228,9 @@ class SiteController extends Controller
         return $this->render('myi18n');
     }
 	
+	public function actionUchredit()
+    {
+        return $this->render('uchredit');
+    }
+	
 }
