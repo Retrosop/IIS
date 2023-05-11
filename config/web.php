@@ -50,9 +50,9 @@ $config = [
 					'basePath' => '@app/messages',
                     //'sourceLanguage' => 'en-US',
                     // все переводы будут в файле messages/ru_RU/app.php
-                   // 'fileMap' => [
-                  //      'app' => 'app.php',
-                  //  ],
+                    // 'fileMap' => [
+                    //      'app' => 'app.php',
+                    //  ],
                 ],
             ],
         ],
@@ -70,6 +70,7 @@ $config = [
             ],
         ],
 		*/
+		
         
     ],
     'params' => $params,
