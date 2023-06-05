@@ -1,0 +1,3244 @@
+2023-06-05 03:22:29 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: F:\OpenServer\domains\yi2\views\site\test.php in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#2 F:\OpenServer\domains\yi2\controllers\SiteController.php(169): yii\base\Controller->render()
+#3 [internal function]: app\controllers\SiteController->actionTest()
+#4 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#5 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#6 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#7 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#8 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#9 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2023-06-05 03:22:29 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/test'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55032'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Ftest'
+    'REQUEST_URI' => '/web/index.php?r=site%2Ftest'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685924549.6672
+    'REQUEST_TIME' => 1685924549
+]
+2023-06-05 03:36:14 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in F:\OpenServer\domains\yi2\views\layouts\main.php:49
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent()
+#3 F:\OpenServer\domains\yi2\controllers\SiteController.php(135): yii\base\Controller->render()
+#4 [internal function]: app\controllers\SiteController->actionMyjscss()
+#5 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-06-05 03:36:14 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/myjscss'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Ffirstpage'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55705'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fmyjscss'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fmyjscss'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925374.524
+    'REQUEST_TIME' => 1685925374
+]
+2023-06-05 03:36:16 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in F:\OpenServer\domains\yi2\views\layouts\main.php:49
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent()
+#3 F:\OpenServer\domains\yi2\controllers\SiteController.php(135): yii\base\Controller->render()
+#4 [internal function]: app\controllers\SiteController->actionMyjscss()
+#5 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-06-05 03:36:16 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/myjscss'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Ffirstpage'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55707'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fmyjscss'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fmyjscss'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925376.214
+    'REQUEST_TIME' => 1685925376
+]
+2023-06-05 03:36:17 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in F:\OpenServer\domains\yi2\views\layouts\main.php:49
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent()
+#3 F:\OpenServer\domains\yi2\controllers\SiteController.php(135): yii\base\Controller->render()
+#4 [internal function]: app\controllers\SiteController->actionMyjscss()
+#5 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-06-05 03:36:17 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/myjscss'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Ffirstpage'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55703'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fmyjscss'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fmyjscss'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925377.0515
+    'REQUEST_TIME' => 1685925377
+]
+2023-06-05 03:36:17 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in F:\OpenServer\domains\yi2\views\layouts\main.php:49
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent()
+#3 F:\OpenServer\domains\yi2\controllers\SiteController.php(135): yii\base\Controller->render()
+#4 [internal function]: app\controllers\SiteController->actionMyjscss()
+#5 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-06-05 03:36:17 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/myjscss'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Ffirstpage'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55758'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fmyjscss'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fmyjscss'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925377.918
+    'REQUEST_TIME' => 1685925377
+]
+2023-06-05 03:36:32 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in F:\OpenServer\domains\yi2\views\layouts\main.php:49
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent()
+#3 F:\OpenServer\domains\yi2\controllers\SiteController.php(135): yii\base\Controller->render()
+#4 [internal function]: app\controllers\SiteController->actionMyjscss()
+#5 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-06-05 03:36:32 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/myjscss'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Ffirstpage'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55759'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fmyjscss'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fmyjscss'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925392.2613
+    'REQUEST_TIME' => 1685925392
+]
+2023-06-05 03:36:33 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in F:\OpenServer\domains\yi2\views\layouts\main.php:49
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent()
+#3 F:\OpenServer\domains\yi2\controllers\SiteController.php(135): yii\base\Controller->render()
+#4 [internal function]: app\controllers\SiteController->actionMyjscss()
+#5 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-06-05 03:36:33 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/myjscss'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Ffirstpage'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55764'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fmyjscss'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fmyjscss'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925393.03
+    'REQUEST_TIME' => 1685925393
+]
+2023-06-05 03:36:33 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in F:\OpenServer\domains\yi2\views\layouts\main.php:49
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent()
+#3 F:\OpenServer\domains\yi2\controllers\SiteController.php(144): yii\base\Controller->render()
+#4 [internal function]: app\controllers\SiteController->actionFirstpage()
+#5 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-06-05 03:36:33 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/firstpage'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55765'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Ffirstpage'
+    'REQUEST_URI' => '/web/index.php?r=site%2Ffirstpage'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925393.726
+    'REQUEST_TIME' => 1685925393
+]
+2023-06-05 03:36:35 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in F:\OpenServer\domains\yi2\views\layouts\main.php:49
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent()
+#3 F:\OpenServer\domains\yi2\controllers\SiteController.php(64): yii\base\Controller->render()
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-06-05 03:36:34 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Ffirstpage'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55766'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925394.974
+    'REQUEST_TIME' => 1685925394
+]
+2023-06-05 03:36:36 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in F:\OpenServer\domains\yi2\views\layouts\main.php:49
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent()
+#3 F:\OpenServer\domains\yi2\controllers\SiteController.php(144): yii\base\Controller->render()
+#4 [internal function]: app\controllers\SiteController->actionFirstpage()
+#5 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-06-05 03:36:36 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/firstpage'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fmyjscss'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55767'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Ffirstpage'
+    'REQUEST_URI' => '/web/index.php?r=site%2Ffirstpage'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925396.2383
+    'REQUEST_TIME' => 1685925396
+]
+2023-06-05 03:36:37 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in F:\OpenServer\domains\yi2\views\layouts\main.php:49
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent()
+#3 F:\OpenServer\domains\yi2\controllers\SiteController.php(135): yii\base\Controller->render()
+#4 [internal function]: app\controllers\SiteController->actionMyjscss()
+#5 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-06-05 03:36:37 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/myjscss'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Ffirstpage'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55768'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fmyjscss'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fmyjscss'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925397.0839
+    'REQUEST_TIME' => 1685925397
+]
+2023-06-05 03:36:37 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in F:\OpenServer\domains\yi2\views\layouts\main.php:49
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent()
+#3 F:\OpenServer\domains\yi2\controllers\SiteController.php(144): yii\base\Controller->render()
+#4 [internal function]: app\controllers\SiteController->actionFirstpage()
+#5 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-06-05 03:36:37 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/firstpage'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55769'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Ffirstpage'
+    'REQUEST_URI' => '/web/index.php?r=site%2Ffirstpage'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925397.2819
+    'REQUEST_TIME' => 1685925397
+]
+2023-06-05 03:36:37 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in F:\OpenServer\domains\yi2\views\layouts\main.php:49
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent()
+#3 F:\OpenServer\domains\yi2\controllers\SiteController.php(64): yii\base\Controller->render()
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-06-05 03:36:37 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55770'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925397.4549
+    'REQUEST_TIME' => 1685925397
+]
+2023-06-05 03:36:37 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in F:\OpenServer\domains\yi2\views\layouts\main.php:49
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent()
+#3 F:\OpenServer\domains\yi2\controllers\SiteController.php(64): yii\base\Controller->render()
+#4 [internal function]: app\controllers\SiteController->actionIndex()
+#5 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-06-05 03:36:37 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fsipoteka'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55771'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/index.php'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925397.6319
+    'REQUEST_TIME' => 1685925397
+]
+2023-06-05 03:36:37 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in F:\OpenServer\domains\yi2\views\layouts\main.php:49
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent()
+#3 F:\OpenServer\domains\yi2\controllers\SiteController.php(177): yii\base\Controller->render()
+#4 [internal function]: app\controllers\SiteController->actionSipoteka()
+#5 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-06-05 03:36:37 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/sipoteka'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fmyajax'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55772'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsipoteka'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fsipoteka'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925397.8639
+    'REQUEST_TIME' => 1685925397
+]
+2023-06-05 03:36:38 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in F:\OpenServer\domains\yi2\views\layouts\main.php:49
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent()
+#3 F:\OpenServer\domains\yi2\controllers\SiteController.php(148): yii\base\Controller->render()
+#4 [internal function]: app\controllers\SiteController->actionMyajax()
+#5 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-06-05 03:36:38 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/myajax'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fmyjscss'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55773'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fmyajax'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fmyajax'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925398.0449
+    'REQUEST_TIME' => 1685925398
+]
+2023-06-05 03:37:15 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in F:\OpenServer\domains\yi2\views\layouts\main.php:49
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent()
+#3 F:\OpenServer\domains\yi2\controllers\SiteController.php(148): yii\base\Controller->render()
+#4 [internal function]: app\controllers\SiteController->actionMyajax()
+#5 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-06-05 03:37:15 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/myajax'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fmyjscss'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55774'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fmyajax'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fmyajax'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925435.9351
+    'REQUEST_TIME' => 1685925435
+]
+2023-06-05 03:37:16 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in F:\OpenServer\domains\yi2\views\layouts\main.php:49
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent()
+#3 F:\OpenServer\domains\yi2\controllers\SiteController.php(148): yii\base\Controller->render()
+#4 [internal function]: app\controllers\SiteController->actionMyajax()
+#5 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-06-05 03:37:16 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/myajax'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fmyjscss'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55804'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fmyajax'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fmyajax'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925436.5811
+    'REQUEST_TIME' => 1685925436
+]
+2023-06-05 03:37:16 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in F:\OpenServer\domains\yi2\views\layouts\main.php:49
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent()
+#3 F:\OpenServer\domains\yi2\controllers\SiteController.php(148): yii\base\Controller->render()
+#4 [internal function]: app\controllers\SiteController->actionMyajax()
+#5 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-06-05 03:37:16 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/myajax'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fmyjscss'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55805'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fmyajax'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fmyajax'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925436.7611
+    'REQUEST_TIME' => 1685925436
+]
+2023-06-05 03:37:17 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in F:\OpenServer\domains\yi2\views\layouts\main.php:49
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent()
+#3 F:\OpenServer\domains\yi2\controllers\SiteController.php(148): yii\base\Controller->render()
+#4 [internal function]: app\controllers\SiteController->actionMyajax()
+#5 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-06-05 03:37:17 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/myajax'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fmyjscss'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55808'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fmyajax'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fmyajax'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925437.0861
+    'REQUEST_TIME' => 1685925437
+]
+2023-06-05 03:37:17 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in F:\OpenServer\domains\yi2\views\layouts\main.php:49
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(422): yii\base\View->renderFile()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(408): yii\base\Controller->renderContent()
+#3 F:\OpenServer\domains\yi2\controllers\SiteController.php(148): yii\base\Controller->render()
+#4 [internal function]: app\controllers\SiteController->actionMyajax()
+#5 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2023-06-05 03:37:17 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/myajax'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fmyjscss'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55810'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fmyajax'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fmyajax'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925437.4272
+    'REQUEST_TIME' => 1685925437
+]
+2023-06-05 03:38:19 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/exam in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-06-05 03:38:19 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/exam'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fmyajax'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55811'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fexam'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fexam'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925499.9343
+    'REQUEST_TIME' => 1685925499
+]
+2023-06-05 03:38:28 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/exam in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-06-05 03:38:28 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/exam'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fexam'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55811'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fexam'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fexam'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925508.1493
+    'REQUEST_TIME' => 1685925508
+]
+2023-06-05 03:38:53 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/exam in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-06-05 03:38:53 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/exam'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fexam'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55811'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fexam'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fexam'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925533.0844
+    'REQUEST_TIME' => 1685925533
+]
+2023-06-05 03:38:53 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/exam in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-06-05 03:38:53 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/exam'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fexam'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55811'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fexam'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fexam'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925533.6923
+    'REQUEST_TIME' => 1685925533
+]
+2023-06-05 03:38:53 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/exam in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-06-05 03:38:53 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/exam'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fexam'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55811'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fexam'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fexam'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925533.8633
+    'REQUEST_TIME' => 1685925533
+]
+2023-06-05 03:38:54 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/exam in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-06-05 03:38:54 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/exam'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fexam'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55811'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fexam'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fexam'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925534.0403
+    'REQUEST_TIME' => 1685925534
+]
+2023-06-05 03:39:21 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/exam in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-06-05 03:39:21 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/exam'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fexam'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55851'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fexam'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fexam'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925561.6834
+    'REQUEST_TIME' => 1685925561
+]
+2023-06-05 03:39:22 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/exam in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-06-05 03:39:22 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/exam'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fexam'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55853'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fexam'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fexam'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925562.34
+    'REQUEST_TIME' => 1685925562
+]
+2023-06-05 03:39:22 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/exam in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-06-05 03:39:22 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/exam'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fexam'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55853'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fexam'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fexam'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925562.5954
+    'REQUEST_TIME' => 1685925562
+]
+2023-06-05 03:39:22 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/exam in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-06-05 03:39:22 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/exam'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fexam'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55853'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fexam'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fexam'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925562.8374
+    'REQUEST_TIME' => 1685925562
+]
+2023-06-05 03:39:23 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/exam in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-06-05 03:39:23 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/exam'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fexam'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55853'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fexam'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fexam'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925563.2124
+    'REQUEST_TIME' => 1685925563
+]
+2023-06-05 03:39:23 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/exam in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-06-05 03:39:23 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/exam'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fexam'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55853'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fexam'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fexam'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925563.4294
+    'REQUEST_TIME' => 1685925563
+]
+2023-06-05 03:39:23 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/exam in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-06-05 03:39:23 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/exam'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fexam'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55853'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fexam'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fexam'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925563.7805
+    'REQUEST_TIME' => 1685925563
+]
+2023-06-05 03:39:24 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/exam in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-06-05 03:39:24 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/exam'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fexam'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55853'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fexam'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fexam'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925564.1495
+    'REQUEST_TIME' => 1685925564
+]
+2023-06-05 03:39:32 [127.0.0.1][-][liep89kcgm3hb7g88tb252shej3b7d5s][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/exam in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-06-05 03:39:32 [127.0.0.1][-][liep89kcgm3hb7g88tb252shej3b7d5s][info][application] $_GET = [
+    'r' => 'site/exam'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_DNT' => '1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-DE,ru-RU;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55861'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fexam'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fexam'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925572.2821
+    'REQUEST_TIME' => 1685925572
+]
+2023-06-05 03:39:36 [127.0.0.1][-][liep89kcgm3hb7g88tb252shej3b7d5s][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/exam in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-06-05 03:39:36 [127.0.0.1][-][liep89kcgm3hb7g88tb252shej3b7d5s][info][application] $_GET = [
+    'r' => 'site/exam'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'liep89kcgm3hb7g88tb252shej3b7d5s'
+    '_csrf' => 'ebcfe80529f6ecbdc39c346b7793edf164d74cd78010a5a23c80f2c026ffec73a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2g-xTuP-lhgpsHBObAYCCEYv2MeNnNRB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fmyjscss'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-DE,ru-RU;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=liep89kcgm3hb7g88tb252shej3b7d5s; _csrf=ebcfe80529f6ecbdc39c346b7793edf164d74cd78010a5a23c80f2c026ffec73a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222g-xTuP-lhgpsHBObAYCCEYv2MeNnNRB%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55861'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fexam'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fexam'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925576.4575
+    'REQUEST_TIME' => 1685925576
+]
+2023-06-05 03:40:21 [127.0.0.1][-][liep89kcgm3hb7g88tb252shej3b7d5s][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: F:\OpenServer\domains\yi2\views\site\test.php in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#2 F:\OpenServer\domains\yi2\controllers\SiteController.php(169): yii\base\Controller->render()
+#3 [internal function]: app\controllers\SiteController->actionTest()
+#4 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#5 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#6 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#7 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#8 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#9 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2023-06-05 03:40:21 [127.0.0.1][-][liep89kcgm3hb7g88tb252shej3b7d5s][info][application] $_GET = [
+    'r' => 'site/test'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'liep89kcgm3hb7g88tb252shej3b7d5s'
+    '_csrf' => 'ebcfe80529f6ecbdc39c346b7793edf164d74cd78010a5a23c80f2c026ffec73a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2g-xTuP-lhgpsHBObAYCCEYv2MeNnNRB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Ffirstpage'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-DE,ru-RU;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=liep89kcgm3hb7g88tb252shej3b7d5s; _csrf=ebcfe80529f6ecbdc39c346b7793edf164d74cd78010a5a23c80f2c026ffec73a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222g-xTuP-lhgpsHBObAYCCEYv2MeNnNRB%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55861'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Ftest'
+    'REQUEST_URI' => '/web/index.php?r=site%2Ftest'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925621.6466
+    'REQUEST_TIME' => 1685925621
+]
+2023-06-05 03:41:43 [127.0.0.1][-][liep89kcgm3hb7g88tb252shej3b7d5s][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: F:\OpenServer\domains\yi2\views\site\test.php in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#2 F:\OpenServer\domains\yi2\controllers\SiteController.php(169): yii\base\Controller->render()
+#3 [internal function]: app\controllers\SiteController->actionTest()
+#4 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#5 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#6 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#7 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#8 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#9 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2023-06-05 03:41:43 [127.0.0.1][-][liep89kcgm3hb7g88tb252shej3b7d5s][info][application] $_GET = [
+    'r' => 'site/test'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'liep89kcgm3hb7g88tb252shej3b7d5s'
+    '_csrf' => 'ebcfe80529f6ecbdc39c346b7793edf164d74cd78010a5a23c80f2c026ffec73a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2g-xTuP-lhgpsHBObAYCCEYv2MeNnNRB\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_DNT' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Ffirstpage'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-DE,ru-RU;q=0.9,ru;q=0.8,en-US;q=0.7,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=liep89kcgm3hb7g88tb252shej3b7d5s; _csrf=ebcfe80529f6ecbdc39c346b7793edf164d74cd78010a5a23c80f2c026ffec73a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222g-xTuP-lhgpsHBObAYCCEYv2MeNnNRB%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55883'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Ftest'
+    'REQUEST_URI' => '/web/index.php?r=site%2Ftest'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925703.2089
+    'REQUEST_TIME' => 1685925703
+]
+2023-06-05 03:43:19 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/exam in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-06-05 03:43:19 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/exam'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fexam'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55911'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fexam'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fexam'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925799.1679
+    'REQUEST_TIME' => 1685925799
+]
+2023-06-05 03:43:19 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/exam in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-06-05 03:43:19 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/exam'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fexam'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55916'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fexam'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fexam'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925799.8449
+    'REQUEST_TIME' => 1685925799
+]
+2023-06-05 03:43:20 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/exam in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-06-05 03:43:20 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/exam'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fexam'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55916'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fexam'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fexam'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925800.0219
+    'REQUEST_TIME' => 1685925800
+]
+2023-06-05 03:43:20 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/exam in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-06-05 03:43:20 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/exam'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fexam'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55915'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fexam'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fexam'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925800.3499
+    'REQUEST_TIME' => 1685925800
+]
+2023-06-05 03:43:21 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/exam in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-06-05 03:43:21 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/exam'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fexam'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55915'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fexam'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fexam'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925801.7669
+    'REQUEST_TIME' => 1685925801
+]
+2023-06-05 03:43:24 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: F:\OpenServer\domains\yi2\views\site\test.php in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#2 F:\OpenServer\domains\yi2\controllers\SiteController.php(169): yii\base\Controller->render()
+#3 [internal function]: app\controllers\SiteController->actionTest()
+#4 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#5 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#6 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#7 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#8 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#9 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2023-06-05 03:43:24 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/test'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fmyajax'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55915'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Ftest'
+    'REQUEST_URI' => '/web/index.php?r=site%2Ftest'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925804.6939
+    'REQUEST_TIME' => 1685925804
+]
+2023-06-05 03:45:08 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/exam in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-06-05 03:45:08 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/exam'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vumama'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Fmyajax'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '55911'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fexam'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fexam'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685925908.6142
+    'REQUEST_TIME' => 1685925908
+]
+2023-06-05 03:56:22 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: F:\OpenServer\domains\yi2\views\site\test.php in F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#1 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#2 F:\OpenServer\domains\yi2\controllers\SiteController.php(172): yii\base\Controller->render()
+#3 [internal function]: app\controllers\SiteController->actionTest()
+#4 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#5 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#6 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#7 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#8 F:\OpenServer\domains\yi2\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#9 F:\OpenServer\domains\yi2\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2023-06-05 03:56:22 [127.0.0.1][-][nnu72pi6v2but7huskmo31e6lu9ofq5n][info][application] $_GET = [
+    'r' => 'site/test'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'nnu72pi6v2but7huskmo31e6lu9ofq5n'
+    '_csrf' => '6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"nlB926HVCseC0CUIPLQaiigxppSSPBSy\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'vumama'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'yi2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://yi2/web/index.php?r=site%2Ffirstpage'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=nnu72pi6v2but7huskmo31e6lu9ofq5n; _csrf=6493cdb41fd5571d8bef0e79e9c0e73033a67e03dd0aac9df38a56f756d1028aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22nlB926HVCseC0CUIPLQaiigxppSSPBSy%22%3B%7D'
+    'PATH' => 'f:\\openserver\\modules\\php\\PHP_7.4\\ext;f:\\openserver\\modules\\php\\PHP_7.4\\pear;f:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;f:\\openserver\\modules\\php\\PHP_7.4;f:\\openserver\\modules\\wget\\bin;f:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\bin;f:\\openserver\\modules\\database\\PostgreSQL-11.14-Win10\\lib;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1\\bin;f:\\openserver\\modules\\http\\Apache_2.4-PHP_7.0-7.1;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'yi2'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/OpenServer/domains/yi2'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'F:/OpenServer/domains/yi2/web/index.php'
+    'REMOTE_PORT' => '56162'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Ftest'
+    'REQUEST_URI' => '/web/index.php?r=site%2Ftest'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1685926582.5201
+    'REQUEST_TIME' => 1685926582
+]
