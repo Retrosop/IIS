@@ -10,17 +10,14 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="site-about">
    
    
-  
-   <input type='button' value='Задание 2' onclick='messageWrite2()' /> <br>
-   
-   <p>Программа для семей, где хотя бы один ребёнок родился после 2018 года включительно или есть ребёнок с инвалидностью</p>
+   <p>Деловые проездные</p>
 
 <ul class="kitt-list kitt-list_ul">
-	<li class="kitt-list-item kitt-list-item_ul">Первоначальный взнос от 15%</li>
-	<li class="kitt-list-item kitt-list-item_ul">Срок кредита до 30 лет</li>
-	<li class="kitt-list-item kitt-list-item_ul">Сумма кредита до 6 млн ₽</li>
+	<li class="kitt-list-item kitt-list-item_ul">Деловой проездной» – это специальное предложение для деловых пассажиров. </li>
+	<li class="kitt-list-item kitt-list-item_ul">Проездной предназначен для многократного перелета по одному из направлений программы экономическим классом на особых условиях.</li>
+	<li class="kitt-list-item kitt-list-item_ul">У нас есть всё, чтобы сделать командировки вашей компании по-настоящему эффективными</li>
 </ul>
-</div><img alt="Ипотека с&nbsp;господдержкой от&nbsp;7,3%" src="image/sipoteka.jpg">
+</div><img alt="Деловые поездные" src="image/n.jpg">
 		   
    </div>
   

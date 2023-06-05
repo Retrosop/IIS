@@ -8,21 +8,16 @@ $this->title = 'My first js and css';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-about">
+
    
-   
-  
-   <input type='button' value='Задание 2' onclick='messageWrite2()' /> <br>
-   
-  <p>Кредит на покупку готового или строящегося жилья.
-Субсидируется государством
-</p>
+  <p>Для пенсионеров</p>
 
 <ul class="kitt-list kitt-list_ul">
-	<li class="kitt-list-item kitt-list-item_ul">Первоначальный взнос от 15%</li>
-	<li class="kitt-list-item kitt-list-item_ul">Срок кредита до 25 лет</li>
-	<li class="kitt-list-item kitt-list-item_ul">Максимальная сумма кредита 3,13 млн ₽</li>
+	<li class="kitt-list-item kitt-list-item_ul">Для женщин старше 55 лет</li>
+	<li class="kitt-list-item kitt-list-item_ul">Для мужчин старше 60 лет</li>
+	<li class="kitt-list-item kitt-list-item_ul">Для детей до 12 лет, следующих совместно со взрослым пассажиром «пенсионер» - скидка 15%</li>
 </ul>
-</div><img alt="Ипотека с&nbsp;господдержкой от&nbsp;7,3%" src="https://yii2/web/image/vipoteka.jpg">
+</div><img alt="Ипотека с&nbsp;господдержкой от&nbsp;7,3%" src="image/d.jpg">
    
    </div>
   

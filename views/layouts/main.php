@@ -32,7 +32,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 <header id="header">
     <?php
     NavBar::begin([
-        'brandLabel' => 'КредитАгент',
+        'brandLabel' => 'AEROFLOT',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => ['class' => 'navbar-expand-md navbar-dark bg-dark fixed-top']
     ]);
@@ -40,20 +40,18 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
         'options' => ['class' => 'navbar-nav'],
         'items' => [
             ['label' => 'Главная', 'url' => ['/site/index']],
-			['label' => 'Лабораторная',
+			
+			['label' => 'Спецпредложения',
                             'items' => [
-                               	['label' => 'Lab2', 'url' => ['/site/firstpage']],
-	                        	['label' => 'Lab3', 'url' => ['/site/myjscss']],
-								['label' => 'Lab4', 'url' => ['/site/myajax']],
-								['label' => 'Lab5', 'url' => ['/site/test']]
+                               	['label' => 'Горячий тур', 'url' => ['/site/gipoteka']],
+	                        	['label' => 'Деловой проездной', 'url' => ['/site/sipoteka']],
+								['label' => 'Для пенсонеров', 'url' => ['/site/vipoteka']],
+								['label' => 'Подарочный сертификат', 'url' => ['/site/itpoteka']],
                             ],
              ],
-			 ['label' => 'Ипотека',
+			 ['label' => 'Бронирование',
                             'items' => [
-                               	['label' => 'Госуд. ипотека', 'url' => ['/site/gipoteka']],
-	                        	['label' => 'Семейная ипотека', 'url' => ['/site/sipoteka']],
-								['label' => 'Военная ипотека', 'url' => ['/site/vipoteka']],
-								['label' => 'Ипотека для IT-специалистов', 'url' => ['/site/itipoteka']]
+                               	['label' => 'Бронирование', 'url' => ['/site/bron']],
                             ],
              ],
 		
@@ -79,7 +77,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 <footer id="footer" class="mt-auto py-3 bg-light">
     <div class="container">
         <div class="row text-muted">
-            <div class="col-md-6 text-center text-md-start">&copy; КредитАгент <?= date('Y') ?></div>
+            <div class="col-md-6 text-center text-md-start">&copy; Aeroflot <?= date('Y') ?></div>
             <div class="col-md-6 text-center text-md-end"><?= Yii::powered() ?></div>
         </div>
     </div>

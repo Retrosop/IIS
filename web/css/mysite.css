@@ -1,7 +1,19 @@
-h1 {
-   color:red;
+body,html {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+   padding: 0;
+  background: url("../image/aerol.jpg") center no-repeat align="center" width="250" height="150">;
+  background-size: 100% 100%;
 }
+
+h1 {
+   color:yellow;
+}
+
 
 table { border-collapse: collapse; }
 tr{ border: solid thin; }
 td{ border: solid thin; }
+

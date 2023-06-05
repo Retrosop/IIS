@@ -184,6 +184,10 @@ class SiteController extends Controller
     {
         return $this->render('itipoteka');
     }
+	public function actionBron()
+    {
+        return $this->render('bron');
+    }
 
 	   
 }
