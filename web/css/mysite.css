@@ -1,0 +1,7 @@
+h1 {
+   color:red;
+}
+
+table { border-collapse: collapse; }
+tr{ border: solid thin; }
+td{ border: solid thin; }
