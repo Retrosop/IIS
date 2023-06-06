@@ -1,7 +1,5 @@
 <?php
-
 /** @var yii\web\View $this */
-
 $this->title = 'Сборка Мебели';
 ?>
 <style>
@@ -13,18 +11,14 @@ $this->title = 'Сборка Мебели';
 
     <div class="jumbotron text-center bg-transparent">
         <h1 class="display-4">Обработка заказов на сборку мебели</h1>
-
         <p class="lead">СБОРКА МЕБЕЛИ ОТ 499 РУБ.</p>
-
         <p><a class="btn btn-lg btn-success" href="/web/site/contact">Заказать</a></p>
     </div>
 
     <div class="body-content">
         <div class="row">
-		
 		<?
 		$con = new mysqli("localhost", "root", "", "baza", 3306);
-		
 		$result = $con->Query("SELECT * FROM `yii2_goods`");
 		?>
 		<? if($result):
@@ -41,6 +35,5 @@ $this->title = 'Сборка Мебели';
 			<? endforeach;
 		endif; ?>
         </div>
-
     </div>
 </div>
