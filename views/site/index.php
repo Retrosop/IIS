@@ -21,43 +21,25 @@ $this->title = 'Сборка Мебели';
 
     <div class="body-content">
         <div class="row">
-            <div class="col-lg-3">
-                <center>
-					<h3>Сборка офисного стеллажа</h3>
-					<img class="myimg" src="/web/bg-masthead.jpg">
-					<p>Сборка стеллажа осуществляется в среднем за 40 минут. Команда рабочих состоит из двух человек.</p>
-					<strong>690 руб.</strong>
-					<p><a class="btn btn-outline-secondary" href="/web/site/contact">Заказать &raquo;</a></p>
-				</center>
-            </div>
-            <div class="col-lg-3">
-                <center>
-					<h3>Сборка офисного стола</h3>
-					<img class="myimg" src="/web/bg-signup.jpg">
-					<p>Сборка офисного стола осуществляется в среднем за 25 минут. Работу выполняет один человек.</p>
-					<strong>780 руб.</strong>
-					<p><a class="btn btn-outline-secondary" href="/web/site/contact">Заказать &raquo;</a></p>
-				</center>
-            </div>
-            <div class="col-lg-3">
-                <center>
-					<h3>Сборка кухонной гарнитуры</h3>
-					<img class="myimg" src="/web/demo-image-01.jpg">
-					<p>Сборка кухонной гарнитуры осуществляется в среднем за 30 минут. Работу выполняет один человек.</p>
-					<strong>1000 руб.</strong>
-					<p><a class="btn btn-outline-secondary" href="/web/site/contact">Заказать &raquo;</a></p>
-				</center>
-				
-            </div>
-            <div class="col-lg-3">
-                <center>
-					<h3>Сборка семейной кровати</h3>
-					<img class="myimg" src="/web/demo-image-02.jpg">
-					<p>Сборка кровати осуществляется в среднем за 15 минут. Работу выполняет один человек.</p>
-					<strong>1200 руб.</strong>
-					<p><a class="btn btn-outline-secondary" href="/web/site/contact">Заказать &raquo;</a></p>
-				</center>
-            </div>
+		
+		<?
+		$con = new mysqli("localhost", "root", "", "baza", 3306);
+		
+		$result = $con->Query("SELECT * FROM `yii2_goods`");
+		?>
+		<? if($result):
+			foreach($result as $row): ?>
+				<div class="col-lg-3">
+					<center>
+						<h3><?=$row["good"]?></h3>
+						<img class="myimg" src="<?=$row["image"]?>">
+						<p><?=$row["desc"]?></p>
+						<strong><?=$row["price"]?> руб.</strong>
+						<p><a class="btn btn-outline-secondary" href="/web/site/contact">Заказать &raquo;</a></p>
+					</center>
+				</div>
+			<? endforeach;
+		endif; ?>
         </div>
 
     </div>
