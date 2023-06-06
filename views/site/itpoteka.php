@@ -4,10 +4,15 @@
 
 use yii\helpers\Html;
 
-$this->title = 'My first js and css';
+$this->title = 'Подарочный сертификат';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-about"> 
+ <br>
+	<br>
+	<br>
+	<br>
+	<br>
   <p>Подарочные сертификат</p>
 
 <ul class="kitt-list kitt-list_ul">

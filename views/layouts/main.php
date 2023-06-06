@@ -26,6 +26,23 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 </head>
+<style>
+        body
+    {
+        background-image: url('/web/image/aerol.png') !important;
+        background-size:100%;
+        color: white !important;
+    }
+	   .breadcrumb 
+    {
+        background-color: #e9ecef00;
+    }
+
+    .breadcrumb-item.active 
+    {
+        color: #ffffff;
+    }
+</style>
 <body class="d-flex flex-column h-100">
 <?php $this->beginBody() ?>
 
@@ -39,24 +56,22 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav'],
         'items' => [
-            ['label' => 'Главная', 'url' => ['/site/index']],
+      
 			
 			['label' => 'Спецпредложения',
                             'items' => [
                                	['label' => 'Горячий тур', 'url' => ['/site/gipoteka']],
 	                        	['label' => 'Деловой проездной', 'url' => ['/site/sipoteka']],
 								['label' => 'Для пенсонеров', 'url' => ['/site/vipoteka']],
-								['label' => 'Подарочный сертификат', 'url' => ['/site/itpoteka']],
                             ],
              ],
 			 ['label' => 'Бронирование',
                             'items' => [
-                               	['label' => 'Бронирование', 'url' => ['/site/bron']],
+                               	['label' => 'Бронирование', 'url' => ['/site/contact']],
                             ],
              ],
 		
             ['label' => 'О нас', 'url' => ['/site/about']],
-            ['label' => 'Контакты', 'url' => ['/site/contact']],
             
         ]
     ]);
@@ -64,24 +79,20 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
     ?>
 </header>
 
-<main id="main" class="flex-shrink-0" role="main">
+<main role="main" class="flex-shrink-0">
     <div class="container">
-        <?php if (!empty($this->params['breadcrumbs'])): ?>
-            <?= Breadcrumbs::widget(['links' => $this->params['breadcrumbs']]) ?>
-        <?php endif ?>
+        <?= Breadcrumbs::widget([
+            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+            'homeLink' => [
+                'label' => 'Главная',
+                'url' => '/web',
+            ],
+        ]) ?>
         <?= Alert::widget() ?>
         <?= $content ?>
     </div>
 </main>
 
-<footer id="footer" class="mt-auto py-3 bg-light">
-    <div class="container">
-        <div class="row text-muted">
-            <div class="col-md-6 text-center text-md-start">&copy; Aeroflot <?= date('Y') ?></div>
-            <div class="col-md-6 text-center text-md-end"><?= Yii::powered() ?></div>
-        </div>
-    </div>
-</footer>
 
 <?php $this->endBody() ?>
 </body>

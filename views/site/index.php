@@ -10,11 +10,17 @@ $this->title = 'My Yii Application';
 <div class="site-index">
 
     <div class="jumbotron text-center bg-transparent">
-        <h1 class="display-4">Aeroflot</h1>
-
-        <p class="lead">Что подарить тому, у кого всё есть? А что, если путешествие?</p>
-
-      
+    <br>
+	   <br>
+   <br>
+           <br>
+   <br>
+    <br>
+	<br>
+	<br>
+	<br>
+	
+    
     </div>
 
     <div class="body-content">
@@ -46,16 +52,10 @@ $this->title = 'My Yii Application';
             </div>
         
 		
-		<div class="col-lg-3">
-		
-                <h1>Подарочный сертификат</h1>
-
-                <p> Подарите своим близким радость путешествия и свободу выбора!</p>
-				<p><?= Html::a('Перейти', ['site/itipoteka']) ?></p>
 				
 				
               
-        </div>
+  
 
     </div>
 </div>
