@@ -14,7 +14,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="site-contact">
     <h1><?= Html::encode($this->title) ?></h1>
 
-    <?php if (Yii::$app->session->hasFlash('contactFormSubmitted')): ?>
+    <?php if (isset($_REQUEST['idorder'])) : ?>
 
         <div class="alert alert-success">
             Thank you for contacting us. We will respond to you as soon as possible.
@@ -40,25 +40,25 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="row">
             <div class="col-lg-5">
 
-                <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
+               <div class="order-form">
 
-                    <?= $form->field($model, 'name')->textInput(['autofocus' => true]) ?>
+						<?php $form = ActiveForm::begin(); ?>
 
-                    <?= $form->field($model, 'email') ?>
+						<?= $form->field($model, 'name')->textInput(['maxlength' => true]) ?>
 
-                    <?= $form->field($model, 'subject') ?>
+						<?= $form->field($model, 'enail')->textInput(['maxlength' => true]) ?>
 
-                    <?= $form->field($model, 'body')->textarea(['rows' => 6]) ?>
+						<?= $form->field($model, 'subject')->textInput(['maxlength' => true]) ?>
 
-                    <?= $form->field($model, 'verifyCode')->widget(Captcha::class, [
-                        'template' => '<div class="row"><div class="col-lg-3">{image}</div><div class="col-lg-6">{input}</div></div>',
-                    ]) ?>
+						<?= $form->field($model, 'body')->textInput(['maxlength' => true]) ?>
 
-                    <div class="form-group">
-                        <?= Html::submitButton('Submit', ['class' => 'btn btn-primary', 'name' => 'contact-button']) ?>
-                    </div>
+						<div class="form-group">
+							<?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
+						</div>
 
-                <?php ActiveForm::end(); ?>
+						<?php ActiveForm::end(); ?>
+
+					</div>
 
             </div>
         </div>

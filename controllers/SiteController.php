@@ -9,6 +9,7 @@ use yii\web\Response;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
+use app\models\Order;
 
 class SiteController extends Controller
 {
@@ -105,15 +106,29 @@ class SiteController extends Controller
      */
     public function actionContact()
     {
-        $model = new ContactForm();
-        if ($model->load(Yii::$app->request->post()) && $model->contact(Yii::$app->params['adminEmail'])) {
-            Yii::$app->session->setFlash('contactFormSubmitted');
-
-            return $this->refresh();
+        $model = new Order();
+		
+        if ($this->request->isPost) {
+            if ($model->load($this->request->post()) && $model->save()) {
+                return $this->redirect(['contact', 'idorder' => $model->idorder]);
+            }
+        } else {
+            $model->loadDefaultValues();
         }
+
         return $this->render('contact', [
-            'model' => $model,
+            'model' => $model, 'idorder' => ''
         ]);
+		
+		
+        // if ($model->load(Yii::$app->request->post()) && $model->contact(Yii::$app->params['adminEmail'])) {
+            // Yii::$app->session->setFlash('contactFormSubmitted');
+
+            // return $this->refresh();
+        // }
+        // return $this->render('contact', [
+            // 'model' => $model,
+        // ]);
     }
 
     /**
@@ -187,6 +202,10 @@ class SiteController extends Controller
 	public function actionBron()
     {
         return $this->render('bron');
+    }
+	public function actionContanctgood()
+    {
+        return $this->render('contactgood');
     }
 
 	   
