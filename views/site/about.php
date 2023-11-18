@@ -14,7 +14,7 @@ $this->params['breadcrumbs'][] = $this->title;
    <tr> 
     <td width="500" valign="top">
          <img 
-    src="https://yii2test.ru/web/img/он4.jpg"width="650" height="500" style="">
+    src="/web/img/on4.jpg"width="650" height="500" style="">
     
        </td>
        <td valign="top"> 
@@ -36,7 +36,7 @@ $this->params['breadcrumbs'][] = $this->title;
        </td>
        <td valign="top"> 
        <img 
-    src="https://yii2test.ru/web/img/он3.jpg"width="650" height="500" style="">
+    src="/web/img/on3.jpg"width="650" height="500" style="">
        </td>
    </tr>
   </table>
@@ -46,7 +46,7 @@ $this->params['breadcrumbs'][] = $this->title;
    <tr> 
     <td width="500" valign="top">
       <img 
-    src="https://yii2test.ru/web/img/он5.jpg"width="650" height="500" style="">
+    src="/web/img/on5.jpg"width="650" height="500" style="">
        </td>
        <td valign="top"> 
            <p1>Мы готовы обеспечить оживленный фуршет на 100 человек,  камерный банкет на 60 персон, банкетное меню может быть разработано по желанию заказчика и, специально для мероприятия, могут быть заказаны напитки.

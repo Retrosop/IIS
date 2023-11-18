@@ -1,8 +1,8 @@
 body, html {
-  background-image: url("https://yii2test.ru/web/img/1.jpg");
+  background-image: url("/web/img/1.jpg");
 }
 menu, html {
-  background-image: url("https://yii2test.ru/web/img/3.jpg");
+  background-image: url("/web/img/3.jpg");
 }
 .price-categories {
  font-size: 20px;

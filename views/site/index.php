@@ -108,22 +108,22 @@ $this->title = 'French Bistro';
          and write the content -->
             <div class="slide">
                 <h1 class="slide-number"><img 
-    src="https://yii2test.ru/web/img/он.jpg"width="750" height="500">
+    src="/web/img/on.jpg"width="750" height="500">
                 </h1>
             </div>
             <div class="slide">
                 <h1 class="slide-number"><img 
-    src="https://yii2test.ru/web/img/он1.jpg" width="750" height="500">
+    src="/web/img/on1.jpg" width="750" height="500">
                 </h1>
             </div>
             <div class="slide">
                 <h1 class="slide-number"><img 
-    src="https://yii2test.ru/web/img/он3.jpg"width="750" height="500">
+    src="/web/img/on3.jpg"width="750" height="500">
                 </h1>
             </div>
             <div class="slide">
                 <h1 class="slide-number"><img 
-    src="https://yii2test.ru/web/img/он2.jpg"width="750" height="500">
+    src="/web/img/on2.jpg"width="750" height="500">
                 </h1>
             </div>
             
@@ -221,22 +221,22 @@ $this->title = 'French Bistro';
          and write the content -->
             <div class="slide">
                 <h1 class="slide-number"><img 
-    src="https://yii2test.ru/web/img/акцияб.jpg"width="750" height="500">
+    src="/web/img/aktsiya.jpg"width="750" height="500">
                 </h1>
             </div>
             <div class="slide">
                 <h1 class="slide-number"><img 
-    src="https://yii2test.ru/web/img/акция2.jpg" width="750" height="500">
+    src="/web/img/aktsiya2.jpg" width="750" height="500">
                 </h1>
             </div>
             <div class="slide">
                 <h1 class="slide-number"><img 
-    src="https://yii2test.ru/web/img/акция4.jpg"width="750" height="500">
+    src="/web/img/aktsiya4.jpg"width="750" height="500">
                 </h1>
             </div>
             <div class="slide">
                 <h1 class="slide-number"><img 
-    src="https://yii2test.ru/web/img/акция.jpg"width="750" height="500">
+    src="/web/img/aktsiya6.jpg"width="750" height="500">
                 </h1>
             </div>
             
@@ -268,7 +268,7 @@ $this->title = 'French Bistro';
        </td>
        <td valign="top"> 
        <img 
-    src="https://yii2test.ru/web/img/д.png"width="650" height="500" style="">
+    src="/web/img/d.png"width="650" height="500" style="">
        </td>
    </tr>
   </table>

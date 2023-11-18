@@ -18,9 +18,9 @@ $this->params['breadcrumbs'][] = $this->title;
   <!-- Верхняя часть -->
   <div class="card__top">
     <!-- Изображение-ссылка товара -->
-    <a href="//yii2test.ru/web/index.php?r=site%2Fpastad" class="card__image">
+    <a href="/web/index.php?r=site%2Fpastad" class="card__image">
       <img
-        src="https://yii2test.ru/web/img/па.jpg"
+        src="/web/img/pa.jpg"
         alt=""
       />
     </a>
@@ -29,7 +29,7 @@ $this->params['breadcrumbs'][] = $this->title;
   <div class="card__bottom">
     </div>
     <!-- Ссылка-название товара -->
-    <a href="//yii2test.ru/web/index.php?r=site%2Fpastad" class="card__title">
+    <a href="/web/index.php?r=site%2Fpastad" class="card__title">
       Паста
     </a>
   </div>
@@ -37,9 +37,9 @@ $this->params['breadcrumbs'][] = $this->title;
   <!-- Верхняя часть -->
   <div class="card__top">
     <!-- Изображение-ссылка товара -->
-    <a href="//yii2test.ru/web/index.php?r=site%2Fpizzad" class="card__image">
+    <a href="/web/index.php?r=site%2Fpizzad" class="card__image">
       <img
-        src="https://yii2test.ru/web/img/пи.jpg"
+        src="/web/img/pi.jpg"
         alt=""
       />
     </a>
@@ -48,7 +48,7 @@ $this->params['breadcrumbs'][] = $this->title;
   <div class="card__bottom">
     </div>
     <!-- Ссылка-название товара -->
-    <a href="//yii2test.ru/web/index.php?r=site%2Fpizzad" class="card__title">
+    <a href="/web/index.php?r=site%2Fpizzad" class="card__title">
       Пицца
     </a>
   </div>
@@ -56,9 +56,9 @@ $this->params['breadcrumbs'][] = $this->title;
   <!-- Верхняя часть -->
   <div class="card__top">
     <!-- Изображение-ссылка товара -->
-    <a href="//yii2test.ru/web/index.php?r=site%2Fdishesd" class="card__image">
+    <a href="/web/index.php?r=site%2Fdishesd" class="card__image">
       <img
-        src="https://yii2test.ru/web/img/га.jpg"
+        src="/web/img/ga.jpg"
         alt=""
       />
     </a>
@@ -67,7 +67,7 @@ $this->params['breadcrumbs'][] = $this->title;
   <div class="card__bottom">
     </div>
     <!-- Ссылка-название товара -->
-    <a href="//yii2test.ru/web/index.php?r=site%2Fdishesd" class="card__title">
+    <a href="/web/index.php?r=site%2Fdishesd" class="card__title">
       Гарниры
     </a>
   </div>
@@ -75,9 +75,9 @@ $this->params['breadcrumbs'][] = $this->title;
   <!-- Верхняя часть -->
   <div class="card__top">
     <!-- Изображение-ссылка товара -->
-    <a href="//yii2test.ru/web/index.php?r=site%2Fhotd" class="card__image">
+    <a href="/web/index.php?r=site%2Fhotd" class="card__image">
       <img
-        src="https://yii2test.ru/web/img/го.jpg"
+        src="/web/img/go.jpg"
         alt=""
       />
     </a>
@@ -86,7 +86,7 @@ $this->params['breadcrumbs'][] = $this->title;
   <div class="card__bottom">
     </div>
     <!-- Ссылка-название товара -->
-    <a href="//yii2test.ru/web/index.php?r=site%2Fhotd" class="card__title">
+    <a href="/web/index.php?r=site%2Fhotd" class="card__title">
       Горячие блюда
     </a>
   </div>
@@ -94,9 +94,9 @@ $this->params['breadcrumbs'][] = $this->title;
   <!-- Верхняя часть -->
   <div class="card__top">
     <!-- Изображение-ссылка товара -->
-    <a href="//yii2test.ru/web/index.php?r=site%2Fsoupsd" class="card__image">
+    <a href="/web/index.php?r=site%2Fsoupsd" class="card__image">
       <img
-        src="https://yii2test.ru/web/img/су.jpg"
+        src="/web/img/sy.jpg"
         alt=""
       />
     </a>
@@ -105,7 +105,7 @@ $this->params['breadcrumbs'][] = $this->title;
   <div class="card__bottom">
     </div>
     <!-- Ссылка-название товара -->
-    <a href="//yii2test.ru/web/index.php?r=site%2Fsoupsd" class="card__title">
+    <a href="/web/index.php?r=site%2Fsoupsd" class="card__title">
       Супы
     </a>
   </div>
@@ -113,9 +113,9 @@ $this->params['breadcrumbs'][] = $this->title;
   <!-- Верхняя часть -->
   <div class="card__top">
     <!-- Изображение-ссылка товара -->
-    <a href="//yii2test.ru/web/index.php?r=site%2Fbreakfastd" class="card__image">
+    <a href="/web/index.php?r=site%2Fbreakfastd" class="card__image">
       <img
-        src="https://yii2test.ru/web/img/за.jpg"
+        src="/web/img/za.jpg"
         alt=""
       />
     </a>
@@ -124,7 +124,7 @@ $this->params['breadcrumbs'][] = $this->title;
   <div class="card__bottom">
     </div>
     <!-- Ссылка-название товара -->
-    <a href="//yii2test.ru/web/index.php?r=site%2Fbreakfastd" class="card__title">
+    <a href="/web/index.php?r=site%2Fbreakfastd" class="card__title">
       Завтрак
     </a>
   </div>
@@ -132,9 +132,9 @@ $this->params['breadcrumbs'][] = $this->title;
   <!-- Верхняя часть -->
   <div class="card__top">
     <!-- Изображение-ссылка товара -->
-    <a href="//yii2test.ru/web/index.php?r=site%2Fdessertsd" class="card__image">
+    <a href="/web/index.php?r=site%2Fdessertsd" class="card__image">
       <img
-        src="https://yii2test.ru/web/img/де.jpg"
+        src="/web/img/de.jpg"
         alt=""
       />
     </a>
@@ -143,7 +143,7 @@ $this->params['breadcrumbs'][] = $this->title;
   <div class="card__bottom">
     </div>
     <!-- Ссылка-название товара -->
-    <a href="//yii2test.ru/web/index.php?r=site%2Fdessertsd" class="card__title">
+    <a href="/web/index.php?r=site%2Fdessertsd" class="card__title">
       Десерт
     </a>
   </div>
@@ -151,9 +151,9 @@ $this->params['breadcrumbs'][] = $this->title;
   <!-- Верхняя часть -->
   <div class="card__top">
     <!-- Изображение-ссылка товара -->
-    <a href="//yii2test.ru/web/index.php?r=site%2Fdrinksd" class="card__image">
+    <a href="/web/index.php?r=site%2Fdrinksd" class="card__image">
       <img
-        src="https://yii2test.ru/web/img/на.jpg"
+        src="/web/img/na.jpg"
         alt=""
       />
     </a>
@@ -162,7 +162,7 @@ $this->params['breadcrumbs'][] = $this->title;
   <div class="card__bottom">
     </div>
     <!-- Ссылка-название товара -->
-    <a href="//yii2test.ru/web/index.php?r=site%2Fdrinksd" class="card__title">
+    <a href="/web/index.php?r=site%2Fdrinksd" class="card__title">
       Напитки
     </a>
   </div>
