@@ -18,7 +18,7 @@ $this->params['breadcrumbs'][] = $this->title;
   <!-- Верхняя часть -->
   <div class="card__top">
     <!-- Изображение-ссылка товара -->
-    <a href="//yii2test.ru/web/index.php?r=site%2Fpastad" class="card__image">
+    <a href="//yii2test.ru/web/index.php?r=site%2Fbolognesed" class="card__image">
       <img
         src="https://yii2test.ru/web/img/p/1.jpg"
         alt=""
@@ -29,7 +29,7 @@ $this->params['breadcrumbs'][] = $this->title;
   <div class="card__bottom">
     </div>
     <!-- Ссылка-название товара -->
-    <a href="//yii2test.ru/web/index.php?r=site%2Fpastad" class="card__title">
+    <a href="//yii2test.ru/web/index.php?r=site%2Fbolognesed" class="card__title">
     Алла Болоньезе
     </a>
   </div>

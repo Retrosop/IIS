@@ -42,7 +42,8 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
             ['label' => 'Главная страница', 'url' => ['/site/index']],
             ['label' => 'О нас', 'url' => ['/site/about']],
 			['label' => 'Меню', 'url' => ['/site/menud']],
-            ['label' => 'Контакты', 'url' => ['/site/contact']]
+            ['label' => 'Корзина', 'url' => ['/site/basked']],
+            ['label' => 'Оформить заказ', 'url' => ['/site/contact']]
         ]
     ]);
     NavBar::end();
@@ -73,7 +74,8 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 <h6>Пн - Чт: с 12:00 до 00:00</h6>
 <h6>Пт - Сб: с 12:00 до 02:00</h6>
 <h6>Вс: с 12:00 до 00:00</h6>
-<h6>С понедельника по пятницу Комплексные обеды с 12.00 до 16.00</h6>
+    <h6>С понедельника по пятницу</h6> 
+    <h6>Комплексные обеды с 12.00 до 16.00</h6>
 <h6>Доставка: вс.-чт. до 22:00; пт.-сб. до 01:00.</h6>
             
     </div>

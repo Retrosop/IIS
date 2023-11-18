@@ -115,6 +115,10 @@ class SiteController extends Controller
             'model' => $model,
         ]);
     }
+     public function actionBasket()
+    {
+     return $this->render('basked');  
+    }
 
     /**
      * Displays about page.
@@ -169,5 +173,9 @@ class SiteController extends Controller
      public function actionSoupsd()
     {
         return $this->render('soups');
-    } 
+    }
+      public function actionBolognesed()
+    {
+        return $this->render('bolognese');
+    }
 }
