@@ -1,0 +1,72 @@
+-- phpMyAdmin SQL Dump
+-- version 5.2.0
+-- https://www.phpmyadmin.net/
+--
+-- РҐРѕСЃС‚: 127.0.0.1:3306
+-- Р’СЂРµРјСЏ СЃРѕР·РґР°РЅРёСЏ: РСЋРЅ 06 2023 Рі., 09:23
+-- Р’РµСЂСЃРёСЏ СЃРµСЂРІРµСЂР°: 8.0.30
+-- Р’РµСЂСЃРёСЏ PHP: 8.0.22
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Р‘Р°Р·Р° РґР°РЅРЅС‹С…: `baza`
+--
+
+-- --------------------------------------------------------
+
+--
+-- РЎС‚СЂСѓРєС‚СѓСЂР° С‚Р°Р±Р»РёС†С‹ `yii2_goods`
+--
+
+CREATE TABLE `yii2_goods` (
+  `id` int NOT NULL,
+  `good` varchar(256) NOT NULL,
+  `desc` varchar(512) NOT NULL,
+  `price` int NOT NULL DEFAULT '0',
+  `image` varchar(256) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+--
+-- Р”Р°РјРї РґР°РЅРЅС‹С… С‚Р°Р±Р»РёС†С‹ `yii2_goods`
+--
+
+INSERT INTO `yii2_goods` (`id`, `good`, `desc`, `price`, `image`) VALUES
+(1, 'РЎР±РѕСЂРєР° РѕС„РёСЃРЅРѕРіРѕ СЃС‚РµР»Р»Р°Р¶Р°', 'РЎР±РѕСЂРєР° СЃС‚РµР»Р»Р°Р¶Р° РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ РІ СЃСЂРµРґРЅРµРј Р·Р° 40 РјРёРЅСѓС‚. РљРѕРјР°РЅРґР° СЂР°Р±РѕС‡РёС… СЃРѕСЃС‚РѕРёС‚ РёР· РґРІСѓС… С‡РµР»РѕРІРµРє.', 690, '/web/bg-masthead.jpg'),
+(2, 'РЎР±РѕСЂРєР° РѕС„РёСЃРЅРѕРіРѕ СЃС‚РѕР»Р°', 'РЎР±РѕСЂРєР° РѕС„РёСЃРЅРѕРіРѕ СЃС‚РѕР»Р° РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ РІ СЃСЂРµРґРЅРµРј Р·Р° 25 РјРёРЅСѓС‚. Р Р°Р±РѕС‚Сѓ РІС‹РїРѕР»РЅСЏРµС‚ РѕРґРёРЅ С‡РµР»РѕРІРµРє.', 780, '/web/bg-signup.jpg'),
+(3, 'РЎР±РѕСЂРєР° РєСѓС…РѕРЅРЅРѕР№ РіР°СЂРЅРёС‚СѓСЂС‹', 'РЎР±РѕСЂРєР° РєСѓС…РѕРЅРЅРѕР№ РіР°СЂРЅРёС‚СѓСЂС‹ РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ РІ СЃСЂРµРґРЅРµРј Р·Р° 30 РјРёРЅСѓС‚. Р Р°Р±РѕС‚Сѓ РІС‹РїРѕР»РЅСЏРµС‚ РѕРґРёРЅ С‡РµР»РѕРІРµРє.', 1000, '/web/demo-image-01.jpg'),
+(4, 'РЎР±РѕСЂРєР° СЃРµРјРµР№РЅРѕР№ РєСЂРѕРІР°С‚Рё', 'РЎР±РѕСЂРєР° РєСЂРѕРІР°С‚Рё РѕСЃСѓС‰РµСЃС‚РІР»СЏРµС‚СЃСЏ РІ СЃСЂРµРґРЅРµРј Р·Р° 15 РјРёРЅСѓС‚. Р Р°Р±РѕС‚Сѓ РІС‹РїРѕР»РЅСЏРµС‚ РѕРґРёРЅ С‡РµР»РѕРІРµРє.', 1200, '/web/demo-image-02.jpg');
+
+--
+-- РРЅРґРµРєСЃС‹ СЃРѕС…СЂР°РЅС‘РЅРЅС‹С… С‚Р°Р±Р»РёС†
+--
+
+--
+-- РРЅРґРµРєСЃС‹ С‚Р°Р±Р»РёС†С‹ `yii2_goods`
+--
+ALTER TABLE `yii2_goods`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `good` (`good`);
+
+--
+-- AUTO_INCREMENT РґР»СЏ СЃРѕС…СЂР°РЅС‘РЅРЅС‹С… С‚Р°Р±Р»РёС†
+--
+
+--
+-- AUTO_INCREMENT РґР»СЏ С‚Р°Р±Р»РёС†С‹ `yii2_goods`
+--
+ALTER TABLE `yii2_goods`
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
