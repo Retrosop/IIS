@@ -51,7 +51,7 @@ INSERT INTO `yii2_goods` (`id`, `good`, `desc`, `price`, `image`) VALUES
 --
 -- Индексы таблицы `yii2_Teleslyg`
 --
-ALTER TABLE `yii2_goods`
+ALTER TABLE `yii2_Teleslyg`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `good` (`good`);
 
