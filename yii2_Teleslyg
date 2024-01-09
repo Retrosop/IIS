@@ -23,10 +23,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `yii2_goods`
+-- Структура таблицы `yii2_Teleslyg`
 --
 
-CREATE TABLE `yii2_goods` (
+CREATE TABLE `yii2_Teleslyg` (
   `id` int NOT NULL,
   `good` varchar(256) NOT NULL,
   `desc` varchar(512) NOT NULL,
@@ -35,7 +35,7 @@ CREATE TABLE `yii2_goods` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
 --
--- Дамп данных таблицы `yii2_goods`
+-- Дамп данных таблицы `yii2_Teleslyg`
 --
 
 INSERT INTO `yii2_goods` (`id`, `good`, `desc`, `price`, `image`) VALUES
@@ -49,7 +49,7 @@ INSERT INTO `yii2_goods` (`id`, `good`, `desc`, `price`, `image`) VALUES
 --
 
 --
--- Индексы таблицы `yii2_goods`
+-- Индексы таблицы `yii2_Teleslyg`
 --
 ALTER TABLE `yii2_goods`
   ADD PRIMARY KEY (`id`),
@@ -60,9 +60,9 @@ ALTER TABLE `yii2_goods`
 --
 
 --
--- AUTO_INCREMENT для таблицы `yii2_goods`
+-- AUTO_INCREMENT для таблицы `yii2_Teleslyg`
 --
-ALTER TABLE `yii2_goods`
+ALTER TABLE `yii2_Teleslyg`
   MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
