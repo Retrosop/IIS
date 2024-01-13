@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.085,D:\DelphiPrograms\Teleyslyg\prTeleyslyg.dproj=C:\Users\kailo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.649,D:\DelphiPrograms\Teleyslyg\untSettings.pas=D:\DelphiPrograms\Teleyslyg\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.796,=C:\Users\kailo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.649,D:\DelphiPrograms\Teleyslyg\untSettings.dfm=D:\DelphiPrograms\Teleyslyg\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.154,D:\DelphiPrograms\Teleyslyg\untGeneral.dfm=C:\Users\kailo\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.154,D:\DelphiPrograms\Teleyslyg\untGeneral.pas=C:\Users\kailo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.745,=D:\DelphiPrograms\Teleyslyg\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.385,=C:\Users\kailo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.632,=C:\Users\kailo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.060,=C:\Users\kailo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.109,=C:\Users\kailo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.523,=C:\Users\kailo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.318,=C:\Users\kailo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.743,=C:\Users\kailo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024.01.13 21:39:40.159,=D:\DelphiPrograms\Teleyslyg\Unit1.pas</Transaction>
+    <Transaction>2024.01.13 21:40:23.737,D:\DelphiPrograms\Teleyslyg\untEmloyee.pas=D:\DelphiPrograms\Teleyslyg\Unit1.pas</Transaction>
+    <Transaction>2024.01.13 21:40:23.737,D:\DelphiPrograms\Teleyslyg\untEmloyee.dfm=D:\DelphiPrograms\Teleyslyg\Unit1.dfm</Transaction>
+    <Transaction>2024.01.13 22:11:14.322,=D:\DelphiPrograms\Teleyslyg\Unit1.pas</Transaction>
+    <Transaction>2024.01.13 22:12:15.109,D:\DelphiPrograms\Teleyslyg\untEmployeeAdd.pas=D:\DelphiPrograms\Teleyslyg\Unit1.pas</Transaction>
+    <Transaction>2024.01.13 22:12:15.109,D:\DelphiPrograms\Teleyslyg\untEmployeeAdd.dfm=D:\DelphiPrograms\Teleyslyg\Unit1.dfm</Transaction>
+    <Transaction>2024.01.13 22:32:06.078,=D:\DelphiPrograms\Teleyslyg\Unit1.pas</Transaction>
+    <Transaction>2024.01.13 22:33:16.161,D:\DelphiPrograms\Teleyslyg\untServices.dfm=D:\DelphiPrograms\Teleyslyg\Unit1.dfm</Transaction>
+    <Transaction>2024.01.13 22:33:16.161,D:\DelphiPrograms\Teleyslyg\untServices.pas=D:\DelphiPrograms\Teleyslyg\Unit1.pas</Transaction>
+    <Transaction>2024.01.13 22:43:49.118,=D:\DelphiPrograms\Teleyslyg\Unit1.pas</Transaction>
+    <Transaction>2024.01.13 22:44:42.991,D:\DelphiPrograms\Teleyslyg\untServicesAdd.dfm=D:\DelphiPrograms\Teleyslyg\Unit1.dfm</Transaction>
+    <Transaction>2024.01.13 22:44:42.991,D:\DelphiPrograms\Teleyslyg\untServicesAdd.pas=D:\DelphiPrograms\Teleyslyg\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
