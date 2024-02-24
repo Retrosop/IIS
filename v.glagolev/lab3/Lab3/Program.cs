@@ -1,6 +1,6 @@
 ﻿using System;
 using System.IO;
-namespace Test;
+namespace Lab3;
 class Program
 {
 	static void Main()
@@ -12,44 +12,52 @@ class Program
 		var new_in = new StreamReader(@"input.txt");
 		Console.SetOut(new_out);
 		Console.SetIn(new_in);
-		int t, N;
-		double X, Y, Z = 0;
-		t = Convert.ToInt32(Console.ReadLine());
-		N = Convert.ToInt32(Console.ReadLine());
-		X = Convert.ToDouble(Console.ReadLine());
-		Y = Convert.ToDouble(Console.ReadLine());
+
+		var t = Convert.ToInt32(Console.ReadLine());
+		var N = Convert.ToInt32(Console.ReadLine());
+		var X = Convert.ToDouble(Console.ReadLine());
+		var Y = Convert.ToDouble(Console.ReadLine());
+		Console.WriteLine(String.Format("{0:0.0000000}", myFunc(t,N,X,Y)));
+		Console.SetOut(save_out); new_out.Close();
+		Console.SetIn(save_in); new_in.Close();
+	}
+
+	static decimal myFunc(int in_t, int in_N, double in_X, double in_Y)
+	{
+		double Z = 0;
+
 		int i, step;
 		double znam = 1, chisl;
-		if (t == 0)
+		if (in_t == 0)
 		{
-			for (i = 1; i <= N; i++)
+			for (i = 1; i <= in_N; i++)
 			{
 				step = i * 2;
 				znam *= (step - 1) * step;
 				if (i % 2 == 0)
-					chisl = -Math.Pow(Y, step);
+					chisl = -Math.Pow(in_Y, step);
 				else
-					chisl = Math.Pow(X, step);
+					chisl = Math.Pow(in_X, step);
 				Z += (step - 1) * (step + 1) * chisl / znam;
 			}
 		}
 
-		if (t == 1)
+		if (in_t == 1)
 		{
 			i = 1;
-			while (i <= N)
+			while (i <= in_N)
 			{
 				step = i * 2;
 				znam *= (step - 1) * step;
 				if (i % 2 == 0)
-					chisl = -Math.Pow(Y, step);
+					chisl = -Math.Pow(in_Y, step);
 				else
-					chisl = Math.Pow(X, step);
+					chisl = Math.Pow(in_X, step);
 				Z += (step - 1) * (step + 1) * chisl / znam;
 				i++;
 			}
 		}
-		if (t == 2)
+		if (in_t == 2)
 		{
 			i = 1;
 			do
@@ -57,16 +65,14 @@ class Program
 				step = i * 2;
 				znam *= (step - 1) * step;
 				if (i % 2 == 0)
-					chisl = -Math.Pow(Y, step);
+					chisl = -Math.Pow(in_Y, step);
 				else
-					chisl = Math.Pow(X, step);
+					chisl = Math.Pow(in_X, step);
 				Z += (step - 1) * (step + 1) * chisl / znam;
 				i++;
-			} while (i <= N);
+			} while (i <= in_N);
 
 		}
-		Console.WriteLine(String.Format("{0:0.0000000}", Convert.ToDecimal(Z)));
-		Console.SetOut(save_out); new_out.Close();
-		Console.SetIn(save_in); new_in.Close();
+		return Convert.ToDecimal(Z);
 	}
 }
