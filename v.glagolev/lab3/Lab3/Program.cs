@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 namespace Lab3;
-class Program
+public class Program
 {
 	static void Main()
 	{
@@ -22,7 +22,7 @@ class Program
 		Console.SetIn(save_in); new_in.Close();
 	}
 
-	static decimal myFunc(int in_t, int in_N, double in_X, double in_Y)
+	public static decimal myFunc(int in_t, int in_N, double in_X, double in_Y)
 	{
 		double Z = 0;
 
