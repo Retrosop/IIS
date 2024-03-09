@@ -8,7 +8,8 @@
 		SocMessage socVk = new SocMessage("vlad", "vk.com");
 		socVk.GetMessage("ivan", "Завтра на отдых");
 
-		MailMessage mailMes = new MailMessage("Влад Владимиров", "Москва, Ленина 4");
+		MailMessage mailMes = new MailMessage();
+		mailMes.InitClassMembers("Влад Владимиров", "Москва, Ленина 4");
 		mailMes.GetMessage("Иван Иванов", "Регистрация на конференцию");
 
 	}
@@ -50,7 +51,7 @@ class MailMessage : Message
 {
 	string fio;
 	string adress;
-	public MailMessage(string f, string a)
+	public void InitClassMembers(string f, string a)
 	{
 		fio = f;
 		adress = a;
@@ -58,6 +59,6 @@ class MailMessage : Message
 
 	public override void GetMessage(string in_source, string in_mes)
 	{
-		Console.WriteLine("Получено письмо {in_source} примечание {in_mes}");
+		Console.WriteLine($"Получено письмо {in_source} примечание {in_mes}");
 	}
 }
