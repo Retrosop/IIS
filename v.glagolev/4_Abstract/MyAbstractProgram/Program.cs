@@ -7,11 +7,11 @@
 
 		SocMessage socVk = new SocMessage("vlad", "vk.com");
 		socVk.GetMessage("ivan", "Завтра на отдых");
-
+#if DEBUG
 		MailMessage mailMes = new MailMessage();
 		mailMes.InitClassMembers("Влад Владимиров", "Москва, Ленина 4");
 		mailMes.GetMessage("Иван Иванов", "Регистрация на конференцию");
-
+#endif
 	}
 }
 
