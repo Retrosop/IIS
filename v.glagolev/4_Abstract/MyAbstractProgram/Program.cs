@@ -8,6 +8,9 @@
 		SocMessage socVk = new SocMessage("vlad", "vk.com");
 		socVk.GetMessage("ivan", "Завтра на отдых");
 
+		MailMessage mailMes = new MailMessage("Влад Владимиров", "Москва, Ленина 4");
+		mailMes.GetMessage("Иван Иванов", "Регистрация на конференцию");
+
 	}
 }
 
@@ -41,5 +44,20 @@ class SocMessage : Message
 	public override void GetMessage(string in_nameAccount, string in_mes)
 	{
 		Console.WriteLine($"Cообщение получено {in_mes} от {in_nameAccount}@{this.nameSoc}");
+	}
+}
+class MailMessage : Message
+{
+	string fio;
+	string adress;
+	public MailMessage(string f, string a)
+	{
+		fio = f;
+		adress = a;
+	}
+
+	public override void GetMessage(string in_source, string in_mes)
+	{
+		Console.WriteLine("Получено письмо {in_source} примечание {in_mes}");
 	}
 }
