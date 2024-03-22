@@ -9,6 +9,9 @@ namespace TestLab4
 		public void TestMethod1()
 		{
 			Assert.AreEqual(Person.Sum(6, 8), 14);
+			Assert.AreEqual(Person.Sum(2, 4), 6);
+			Assert.AreEqual(Person.Sum(3, 8), 11);
+
 		}
 	}
 }
